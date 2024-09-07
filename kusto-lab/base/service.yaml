@@ -3,15 +3,7 @@ kind: Service
 metadata:
   name: go-webapp
   namespace: default
-  labels:
-    app: golang
-    role: webapp
-    tier: backend
 spec:
   ports:
   - port: 8080
-  selector:
-    app: golang
-    role: webapp
-    tier: backend
   type: LoadBalancer
