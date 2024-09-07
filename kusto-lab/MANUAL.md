@@ -18,4 +18,10 @@ Noted: Due to lack of time, I provide only simple base and dev variants
             --- other patches yaml file to add on base file
       --- | prod (required kustomization file for config as base)
       --- | test (required kustomization file for config as base)
+
+```
+Vanilla apply for POC in task 3 by
+```sh
+// redirect to directory to deploy and apply via -k
+kubectl apply -k .
 ```
