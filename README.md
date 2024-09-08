@@ -65,3 +65,7 @@ Step:
 7. Create CICD workflow using GitOps pipeline to build and deploy application 
 
 **Expected output:** GitOps pipeline (Github, Gitlab, Bitbucket, Jenkins) workflow or diagram
+
+**Draft**
+
+![My GitOps Pipeline](pic\gitops.drawio.png)
