@@ -48,13 +48,19 @@ Step:
 
 **Expected Output:** IaC code
 
+**Not have enough time:**
+
 5. Condition: Avoid injecting the generated GCP access keys to the application directly. 
+
+**Not have enough time:** Ideal logic might be applied k8s secret management service, tag along with remote backend on terraform with gcs, and some IAM service by GCP
 
 **Expected Output:** Kustomize manifest, IaC code or anything to complete this task.
 
 6. Use ArgoCD to deploy this application. To follow GitOps practices, we prefer to have an ArgoCD application defined declaratively in a YAML file if possible.
 
 **Expected output:** Yaml files and instruction how to deploy the application or command line
+
+**My Output:** Failed its locate in [argo-ptoblem](argo-problem/)
 
 7. Create CICD workflow using GitOps pipeline to build and deploy application 
 

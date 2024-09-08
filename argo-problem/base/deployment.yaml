@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-webapp
+  labels:
+    app: golang
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: golang
+  template:
+    metadata:
+      labels:
+        app: golang
+    spec: # Pod spec
+      containers:
+      - name: hello
+        image: "famedocker/tryout:latest"
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+        ports:
+        - containerPort: 8080
+          name: http
