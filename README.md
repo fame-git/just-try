@@ -68,4 +68,4 @@ Step:
 
 **Draft**
 
-![My GitOps Pipeline](pic\gitops.drawio.png)
+![My GitOps Pipeline](pic/gitops.drawio.png)
